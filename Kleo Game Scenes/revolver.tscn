@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://tb8mkjagp0bk"]
+
+[ext_resource type="PackedScene" uid="uid://duq81tbo6k1p4" path="res://Kleo Game Models/plchld_revolver.blend" id="1_d83pj"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="plchld_revolver" parent="." instance=ExtResource("1_d83pj")]
+transform = Transform3D(0.15, 0, 0, 0, 0.15, 0, 0, 0, 0.15, 0, 0, 0)

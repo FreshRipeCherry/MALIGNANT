@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://c8t8wdpkx6pfg"]
+
+[ext_resource type="Script" path="res://Kleo Game Scenes/bullet_trail.gd" id="1_3mhf2"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qirir"]
+
+[node name="BulletTrail" type="MeshInstance3D"]
+material_override = SubResource("StandardMaterial3D_qirir")
+script = ExtResource("1_3mhf2")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 3.0
+one_shot = true
+autostart = true
